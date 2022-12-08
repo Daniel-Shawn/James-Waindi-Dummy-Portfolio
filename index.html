@@ -569,6 +569,10 @@
             hamburgerMenu.classList.toggle("is-active")
             mobileMenu.classList.toggle("menu-is-active")
         })
+        mobileMenu.addEventListener("click", function(){
+            mobileMenu.classList.remove("menu-is-active")
+            hamburgerMenu.classList.remove("is-active")
+        })
 
 
 
