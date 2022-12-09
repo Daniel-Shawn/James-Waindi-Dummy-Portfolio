@@ -573,9 +573,23 @@
             mobileMenu.classList.remove("menu-is-active")
             hamburgerMenu.classList.remove("is-active")
         })
+        
+        const text = document.querySelector("#typing");
 
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Editor";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Artist";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Producer";
+            }, 8000); //1s = 1000 milliseconds
+        }
 
-
+        textLoad();
+        setInterval(textLoad, 12000);
         ;
     </script>
 </body>
