@@ -1428,11 +1428,16 @@ h3.title{
 /* MEDIA QUERY STYLES */
 /* ------------Small laptops and phones---------- */
 @media screen and (min-width:1367px){
-        .social-links{
-        gap: 4em;
+    .contact-me .container .contact-info .box .icon{
+        width: 1.5em;
+    }
+    /*.contact-me .container .contact-info .box .icon img{}*/
+    .social-links{
+    margin: 2em 0;
     }
 
     .social-links li{
+        list-style: none;
         margin: 0 1em;
     }
 }
