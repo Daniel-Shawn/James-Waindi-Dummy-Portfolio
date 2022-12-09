@@ -1427,6 +1427,15 @@ h3.title{
 
 /* MEDIA QUERY STYLES */
 /* ------------Small laptops and phones---------- */
+@media screen and (min-width:1367px){
+        .social-links{
+        gap: 4em;
+    }
+
+    .social-links li{
+        margin: 0 1em;
+    }
+}
 @media screen and (max-width:992px){
 
     .header nav ul{
